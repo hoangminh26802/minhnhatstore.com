@@ -17,11 +17,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #b30000;
-  color: white;
-  padding: 10px 20px;
   flex-wrap: wrap;
+  padding: 10px 15px;
+  position: relative;   /* thêm */
+  z-index: 1000;        /* thêm */
 }
+
 
 .topbar .logo {
   display: flex;
@@ -48,10 +49,9 @@ body {
 }
 
 .topbar .search-bar {
-  display: flex;
   flex-grow: 1;
-  max-width: 400px;
-  margin: 0 20px;
+  max-width: 250px;     /* giảm từ 400px */
+  margin: 0 10px;       /* giảm margin */
 }
 
 .topbar .search-bar input {
@@ -591,3 +591,4 @@ footer {
 #orderForm button[type="submit"]:hover {
   background-color: #800000;
 }
+
