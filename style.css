@@ -521,14 +521,16 @@
       font-size: 0.9rem;
     }
 
-    #cart {
-        width: auto;
-        max-width: 280px;
-        max-height: 80vh;   /* Tối đa chiếm 80% chiều cao nếu nội dung nhiều */
-        bottom: 50px;
-        right: 15px;
-        padding: 12px;
-    }
+   #cart {
+    width: 90%;          /* Chiếm 90% chiều ngang */
+    max-width: 250px;    /* hoặc cố định vừa đủ */
+    max-height: 50vh;    /* chỉ chiếm nửa màn hình */
+    bottom: 15px;
+    right: 15px;
+    padding: 12px;
+    overflow-y: auto;    /* scroll nếu nội dung nhiều */
+    border-radius: 8px;
+  }
 
     #cart h3 {
       font-size: 1rem;
@@ -784,4 +786,5 @@
       padding: 10px;
     }
   }
+
 
