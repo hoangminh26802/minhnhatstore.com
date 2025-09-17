@@ -50,9 +50,10 @@ body {
 }
 
 .topbar .search-bar {
-  flex-grow: 1;
-  max-width: 250px;
-  margin: 0 10px;
+  flex: 1 1 auto; /* co giãn tự do */
+  min-width: 120px; /* đảm bảo vẫn nhìn được */
+  margin: 0 5px;
+  display: flex;
 }
 
 .topbar .search-bar input {
@@ -649,3 +650,4 @@ footer {
     right: 6px;
   }
 }
+
