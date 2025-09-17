@@ -522,13 +522,12 @@
     }
 
     #cart {
-      position: fixed;
-      bottom: 15px;   /* Đặt sát đáy màn hình */
-      right: 5vw;
-      width: 90vw;
-      max-height: 60vh;
-      padding: 15px 15px 12px 15px;
-      border-radius: 5px;
+        width: auto;
+        max-width: 280px;
+        max-height: 80vh;   /* Tối đa chiếm 80% chiều cao nếu nội dung nhiều */
+        bottom: 50px;
+        right: 15px;
+        padding: 12px;
     }
 
     #cart h3 {
@@ -785,3 +784,4 @@
       padding: 10px;
     }
   }
+
