@@ -403,24 +403,22 @@
   }
 
   /* Popup Giỏ hàng nhỏ hơn */
-  #cart {
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    width: 280px;
-    max-height: 360px;
-    background: #fff;
-    border: 1.5px solid #b30000;
-    border-radius: 6px;
-    padding: 16px 18px;
-    box-shadow: 0 4px 12px rgba(179, 0, 0, 0.3);
-    z-index: 1100;
-    display: none;
-    overflow-y: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-  }
+#cart {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 280px;       /* chiều rộng cố định vừa phải */
+  max-height: 400px;  /* giới hạn chiều cao */
+  background: #fff;
+  border: 1.5px solid #b30000;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(179,0,0,0.3);
+  z-index: 9999;
+  display: none;
+  overflow-y: auto;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
 
   /* Tiêu đề giỏ hàng */
   #cart h3 {
@@ -776,6 +774,7 @@
       padding: 10px;
     }
   }
+
 
 
 
