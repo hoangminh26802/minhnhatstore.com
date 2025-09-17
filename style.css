@@ -514,17 +514,13 @@
 
   /* Responsive nhỏ hơn */
   @media (max-width: 600px) {
-  #cart {
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    width: 220px;       /* nhỏ gọn hơn */
-    max-width: 220px;
-    max-height: 300px;  /* giới hạn chiều cao */
-    overflow-y: auto;   /* nếu nội dung dài, scroll trong popup */
-    padding: 12px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(179,0,0,0.3);
+   #cart {
+    bottom: 10px;
+    right: 10px;
+    width: 280px;      /* Giữ cố định vừa phải */
+    max-height: 400px; /* Giới hạn chiều cao */
+    padding: 12px 14px;
+    border-radius: 6px;
   }
   
   /* Tiêu đề giỏ hàng */
@@ -780,6 +776,7 @@
       padding: 10px;
     }
   }
+
 
 
 
